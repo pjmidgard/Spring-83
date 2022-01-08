@@ -596,6 +596,16 @@ class compression:
                                         	   
                                             if C==1 and T==0:
                                             	sda17=sda3
+                                            	lenf=len(sda17)
+                                            	szx=""
+                                            	xc=8-lenf%8
+                                            	z=0
+                                            	if xc!=0:
+                                            	        if xc!=8:
+                                            	            while z<xc:
+                                            	            	szx="0"+szx
+                                            	            	z=z+1
+                                            	sda17=szx+sda17
                                         
                                             if C==1 and T!=0:
                                             	sda17=bin(T7)[3:]
