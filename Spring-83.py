@@ -5,41 +5,10 @@ import os
 import binascii
 import math
 
-x=0
-x1=0
-x2=0
-n=0
-x = time()
-
 lenf=0
 name=""
 szx=""
 wer=""
-f=0
-e=(2**100)-1
-g=0
-f=0
-T6=0
-while f!=1:
-      
-        
-                                                
-        g=g+1
-                                                
-                                                
-                                                
-        if g>(2**24)-2:
-                f=1
-        
-
-f=0
-
-x2 = time()
-x3=x2-x
-xs=float(x3)
-if xs>0.0000000000000001:
-         print("Sorry, You computer not enough fast!")
-         raise SystemExit
         
 
 
@@ -55,6 +24,40 @@ class compression:
                 if namez=="c" or namez=="e":
                     if namez=="c":
                         i=1
+                        
+                        x=0
+                        x1=0
+                        x2=0
+                        n=0
+                        x = time()
+
+
+                        f=0
+                        e=(2**100)-1
+                        g=0
+                        f=0
+                        T6=0
+                        while f!=1:
+                              
+                                
+                                                                        
+                                g=g+1
+                                                                        
+                                                                        
+                                                                        
+                                if g>(2**24)-2:
+                                        f=1
+                                
+
+                        f=0
+
+                        x2 = time()
+                        x3=x2-x
+                        xs=float(x3)
+                        print(xs)
+                        if xs>0.0000000000000001:
+                                print("Sorry, You computer not enough fast!")
+                                raise SystemExit
                     if namez=="e":
                         i=2
                     
