@@ -614,6 +614,7 @@ class compression:
                                             	lenf15=lenf14-1
                                             	lenf16=lenf15%8
                                             	if lenf16!=0:
+                                            		print("file corupted")
                                             		raise SystemExit
                                             		
                                             	
