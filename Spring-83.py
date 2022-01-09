@@ -54,7 +54,7 @@ class compression:
                         	
                         	C=1
 
-                        if nameas[nac-4:nac]!=".bin":
+                        elif nameas[nac-4:nac]!=".bin":
                                 print("Sorry, this is not binary file!")
                                 raise SystemExit
                    
