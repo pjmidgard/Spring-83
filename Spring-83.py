@@ -56,7 +56,7 @@ class compression:
                         xs=float(x3)
                         print(xs)
                         if xs>0.0000000000000001:
-                                print("Sorry, You computer not enough fast!")
+                                print("Sorry, Your computer not enough fast!")
                                 raise SystemExit
                     if namez=="e":
                         i=2
